@@ -1,0 +1,200 @@
+table.kurczaki thead td{
+	font-style:serif;
+	font-weight:normal;
+	color: black;
+}
+
+
+table.kurczaki td{
+	text-align:center;
+	width: auto;
+	border: none;
+} 
+
+table.kurczaki td:first-child{
+	text-align:right;
+}
+
+table.kurczaki tbody td:first-child{
+	font-weight:bold;
+}
+
+table.kurczaki tbody td:nth-child(2){
+	font-style: italic;
+}
+table.kurczaki td:last-child{
+	text-align:left;
+}  
+
+
+table.kurczaki#kurczaki-2 thead td{
+	background: red;
+}
+
+
+table.kurczaki#kurczaki-2 td{
+	background: yellow
+} 
+
+table.kurczaki#kurczaki-2 tr:nth-child(even) td{
+	background: blue;
+}
+
+table.XVIw td{
+	color: black;
+	border: none;
+	vertical-align: top;
+	width: auto;
+	font-weight: normal;
+	text-align: left;
+	padding: 2px 5px;
+}
+
+table.XVIw td:nth-child(3), table.XVIw td:nth-child(6){
+	text-align: right;
+}
+
+table.XVIw td:first-child, table.XVIw td:nth-child(4){
+	font-style: serif;
+}
+
+table.XVIw#XVIw-2 tr:nth-child(even) td:nth-child(even), table.XVIw#XVIw-2 tr:nth-child(odd) td:nth-child(odd){
+	background: #FFCC66;
+	color: black;
+}
+
+table.Populacja td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+
+table.Populacja thead td{
+	font-style: serif;
+	font-weight: normal;
+	border:1px solid black;
+	
+}
+table.Populacja tfoot td{
+	text-align: right;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	
+}
+table.Populacja tbody td{
+	text-align:right;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+table.Populacja#Populacja-2 td{
+	border-color:#FF3399;
+	background:#99FF33;
+}
+
+table.Populacja#Populacja-2 tbody td{
+	border-color: #FF3399;
+	background: #FF0066;
+}
+
+table.Worksheet td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+
+table.Worksheet td:first-child{
+	vertical-align: top;
+	text-align: right;
+}
+
+table.Worksheet td:nth-child(2), table.Worksheet td:nth-child(3){
+	text-align: left;
+}
+table.Worksheet td:last-child{
+	text-align: right;
+}
+
+table.Worksheet tr:nth-child(4) td:nth-child(4), table.Worksheet tr:nth-child(3) td:nth-child(3) {
+	text-decoration: underline;
+}
+
+table.Worksheet#Worksheet-2{
+	background: #99FFCC;
+}
+
+table.ATandT {
+	display: inline-table;
+}
+
+table.ATandT td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:1px solid black;
+	text-align: center;
+}
+
+table.ATandT thead td{
+	text-align: center;
+	font-weight: normal;
+}
+table.ATandT tfoot td{
+	text-align: left;
+	font-weight: normal;
+}
+
+table.ATandT tbody td:first-child{
+	text-align: right;
+}
+
+table.ATandT tbody tr:last-child td:last-child {
+	text-align:right;
+}
+
+
+table.ATandT.color{
+	background:#0099CC;
+}
+table.ATandT.wide{
+	width:300px;
+}
+.center{
+	text-align:center;
+}
+
+table.Chart  td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+
+table.Chart tr:nth-child(2n-1) td:nth-child(3){
+	border-bottom:1px solid black;
+}
+
+table.Chart tr:nth-child(4n+2) td:nth-child(3), table.Chart tr:nth-child(4n+3) td:nth-child(3){
+	border-left:1px solid black;	
+}
+
+
+table.Chart tr:nth-child(4n-2) td:nth-child(2){
+	border-bottom:1px solid black;
+}
+table.Chart tr:nth-child(8n-5) td:nth-child(2), table.Chart tr:nth-child(8n-4) td:nth-child(2), table.Chart tr:nth-child(8n-3) td:nth-child(2), table.Chart tr:nth-child(8n-2) td:nth-child(2){
+	border-left:1px solid black;	
+}
+
+table.Chart tr:nth-child(8n-4) td:nth-child(1){
+	border-bottom:1px solid black;
+}
+
+table.Chart#Chart-2 td{
+	background:#CC9900;
+	border-color: green;
+	color: #071266;
+}
